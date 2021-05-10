@@ -138,7 +138,7 @@ body{
 
 .abilities{
     background-color: #19181f;
-    padding: 50px 0 150px;
+    padding: 50px 0;
 }
 .slider{
     margin-top: 50px;
@@ -237,4 +237,36 @@ body{
     font-weight: 300;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.uniq{
+    background-image: url("../img/uniq-bg.png");
+    background-position: center;
+    padding: 100px 0;
+}
+.uniq-info {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.uniq_features-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uniq_features-item{
+    flex-basis: 250px;
+    text-align: center;
+    color: #ff9400;
+    padding: 30px 0;
+}
+.uniq_features-item>i{
+    font-size: 70px;
+}
+.uniq_features-item-text{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
