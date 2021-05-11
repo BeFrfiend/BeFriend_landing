@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+<header id="pg-nv">
     <div class="navbar" id="menu">
         <div class="wrapper">
-            <nav class="navbar-container">
-                <a href="#" class="logo">BeFriend</a>
+            <nav id="nav" class="navbar-container">
+                <a href="#pg-nv" class="logo">BeFriend</a>
                 <ul class="menu">
-                    <li class="menu-item"><a href="">Головна</a></li>
-                    <li class="menu-item"><a href="">Можливості</a></li>
-                    <li class="menu-item"><a href="">Особливості</a></li>
-                    <li class="menu-item"><a href="">Додаток</a></li>
+                    <li class="menu-item"><a href="#pg-nv" class="current">Головна</a></li>
+                    <li class="menu-item"><a href="#pg-ab">Можливості</a></li>
+                    <li class="menu-item"><a href="#pg-un">Особливості</a></li>
+                    <li class="menu-item"><a href="#pg-ap">Додаток</a></li>
                     <li class="menu-item"><a href="">Про нас</a></li>
                     <li class="menu-item"><a href="">FAQ</a></li>
                 </ul>
@@ -39,7 +39,7 @@
         <div class="header-bg-mask"></div>
     </div>
 </header>
-<div class="abilities">
+<div id="pg-ab" class="abilities">
     <div class="wrapper-1300px">
         <h2 class="section_heading"><span>З нами ти зможеш</span>Твої можливості</h2>
         <div class="slider single-item">
@@ -75,7 +75,7 @@
     </div>
 
 </div>
-<div class="uniq">
+<div id="pg-un" class="uniq">
     <div class="wrapper">
         <h2 class="section_heading"><span>Чому варто обрати нас</span>Унікальні переваги</h2>
         <p class="uniq-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada facilisis massa eu placerat. Vestibulum ut orci diam. Nulla imperdiet, lectus sed egestas malesuada, ligula sapien hendrerit urna, nec euismod odio ex in turpis. Sed ac consequat nulla. Sed semper eu nisi non blandit. Mauris congue quam lorem, et imperdiet enim rhoncus vitae. Proin ligula lacus, iaculis nec scelerisque nec, interdum vitae magna. Nam ultricies varius ex at aliquet. Aenean enim libero, condimentum eget lacus sed, semper consequat ligula. Quisque vestibulum, tellus vel ornare semper, mauris justo scelerisque magna, vel placerat tellus tortor et mi. Phasellus sed fringilla arcu, id maximus nibh.</p>
@@ -96,6 +96,18 @@
                 <i class="fas fa-jedi"></i>
                 <p class="uniq_features-item-text">Lorem ipsum</p>
             </div>
+        </div>
+    </div>
+</div>
+<div id="pg-ap" class="app">
+    <div class="wrapper">
+        <div class="app_box">
+            <div class="app_info-box">
+                <h2 class="section_heading"><span>Завантажуй вже зараз</span>Наш додаток</h2>
+                <p class="app_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere eget tortor sit amet ultricies. Sed eu ipsum quis neque gravida convallis. Aliquam non libero semper, feugiat velit in, tempor augue. Nullam ac sapien vel felis egestas interdum eu non diam. Integer egestas quis augue nec tincidunt. Mauris dolor risus, ultricies ultrices magna eu, feugiat ullamcorper lorem.</p>
+                <a id="download" download="true" class="btn-primary">Завантажити</a>
+            </div>
+            <img src="img/app-screen.png" alt="" class="screen_img">
         </div>
     </div>
 </div>
