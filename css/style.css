@@ -96,8 +96,14 @@ body{
     color: #fff;
     transition: all 0.2s;
 }
+.menu-item>a.current{
+    color: #ff9400;
+}
 .menu-item>a:hover{
-    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+}
+.menu-item>a.current:hover{
+    opacity: 1;
 }
 .header-content{
     height: 100vh;
@@ -138,7 +144,7 @@ body{
 
 .abilities{
     background-color: #19181f;
-    padding: 50px 0;
+    padding: 50px 0 100px;
 }
 .slider{
     margin-top: 50px;
@@ -241,6 +247,8 @@ body{
 
 .uniq{
     background-image: url("../img/uniq-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding: 100px 0;
 }
@@ -269,4 +277,38 @@ body{
 .uniq_features-item-text{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+}
+
+.app{
+    background: #19181f;
+    padding: 80px 0;
+}
+.app_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.screen_img{
+    display: block;
+    width: 380px;
+}
+.app_info-box{
+    flex-basis: 500px;
+    text-align: center;
+}
+.app_info-box>.section_heading{
+    text-align: left;
+    margin: 0 0 30px;
+}
+.app_info{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 70px;
+    text-align: left;
+}
+#download{
+    text-align: center;
 }
